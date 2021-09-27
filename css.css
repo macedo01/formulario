@@ -10,20 +10,25 @@ fieldset{
 
 #titulo{
     color: #380b61;
-    margin-left: 7%;
+    margin-left: 2%;
 }
 
 #subtitulo{
     color: #380b61;
-    margin-left: 10%;
+    margin-left: 5.5%;
 }
 
 body{
     background-color: #F0F8FF;
-    font-size: 1em;
+    font-size:1.3em;
     color: #59429d;
-    margin-left: 36%;
-    margin-top: 2%;
+    margin-left: 37%;
+    margin-top: 8%;
+}
+
+input:hover, textarea:hover{
+    border: 2px solid #59429d;
+    list-style: none;
 }
 
 .campo{
@@ -36,11 +41,34 @@ body{
     display: block;
 }
 
-
-/*ver daqui*/
-
 fieldset.grupo .campo {
     float:  left;
     margin-right: 1em;
 }
 
+fieldset .campo input  {
+    float: left;
+}
+
+select{
+    border: 1px solid #59429d;
+}
+
+option{
+    background-color: #ad96f3;
+}
+
+.campo textarea{
+    height: 40px;
+    width: 350px;
+}
+
+button{
+    border-radius: 20px;
+    width: 150px;
+    height: 40px;
+    margin-left: 110px;
+    cursor: pointer;
+    background-color: #59429d;
+    color: white;
+}

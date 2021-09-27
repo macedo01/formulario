@@ -33,20 +33,22 @@
         </fieldset>
 
         <div class="campo">
-            <!--terceiro inpput-->
+            <!--terceiro input-->
             <label for="email">Email</label>
-            <input type="email" required> 
+            <input type="email" required>
         </div>
         <!--input radio-->
-        <div class="campo">
-            <label>De qual lado da aplicação você desenvolve?</label>
-            <input type="radio" name="front">
-            <label for="front">Front-End</label>
-            <input type="radio" name="back">
-            <label for="back">Back-End</label>
-            <input type="radio" name="full">
-            <label for="full">Full Stack</label>
-        </div>
+        <fieldset class="cam">
+            <div class="campo">
+                <label>De qual lado da aplicação você desenvolve?</label>
+                <input type="radio" name="front">
+                <label for="front" class="sep">Front-End</label>
+                <input type="radio" name="back">
+                <label for="back" class="sep">Back-End</label>
+                <input type="radio" name="full">
+                <label for="full" class="sep">Full Stack</label>
+            </div>
+        </fieldset>
         <!--select option-->
         <div class="campo">
             <label>Senhoridade</label>
@@ -73,10 +75,11 @@
         </div>
 
         <div class="campo">
-            <label>Conte um pouco sobre sua experiencia na area</label>
+            <br>
+            <label>Conte um pouco sobre sua experiência na area</label>
             <textarea required rows="6"></textarea>
         </div>
-        
+
         <button type="submit">Concluido</button>
     </form>
 </body>
