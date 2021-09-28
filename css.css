@@ -26,11 +26,33 @@ body{
     margin-top: 8%;
 }
 
-input:hover, textarea:hover{
+input:hover{
     border: 2px solid #59429d;
-    list-style: none;
 }
 
+select{
+    border: 1px solid #59429d;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+select:hover{
+    background-color: hsl(254, 71%, 86%);
+}
+
+button{
+    border-radius: 20px;
+    width: 150px;
+    height: 40px;
+    margin-left: 110px;
+    cursor: pointer;
+    background-color: #59429d;
+    color: white;
+}
+
+button:hover{
+    background-color: #6954a7;
+}
 .campo{
     margin-bottom: 1em;
 }
@@ -50,25 +72,8 @@ fieldset .campo input  {
     float: left;
 }
 
-select{
-    border: 1px solid #59429d;
-}
-
-option{
-    background-color: #ad96f3;
-}
 
 .campo textarea{
     height: 40px;
     width: 350px;
-}
-
-button{
-    border-radius: 20px;
-    width: 150px;
-    height: 40px;
-    margin-left: 110px;
-    cursor: pointer;
-    background-color: #59429d;
-    color: white;
 }
